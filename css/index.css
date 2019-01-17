@@ -171,7 +171,7 @@ img {
 @media (max-width: 1024px) {
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -186,11 +186,12 @@ header h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
   }
   header nav a {
-    padding: 1rem;
+    padding: 0.7rem;
     text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
   }
 }
 .footer {
@@ -249,7 +250,4 @@ header h2 {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-.container {
-  max-width: 1024;
 }
