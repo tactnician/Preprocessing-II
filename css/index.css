@@ -178,15 +178,20 @@ img {
     border-bottom: 1px dashed black;
   }
 }
+header h2 {
+  font-size: 4rem;
+}
 @media (max-width: 1024px) {
   header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
   }
-}
-header h2 {
-  font-size: 4rem;
+  header nav a {
+    padding: 1rem;
+    text-decoration: none;
+  }
 }
 .footer {
   width: 100%;
